@@ -1,0 +1,185 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+   width: 100%;
+   height: 100%;
+   font-size: 1em;
+   font-weight: normal;
+}
+
+.background {
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   position: relative;
+   overflow-y: auto;
+   background-image: url(images/bg.png);
+}
+
+.nav {
+   width: 15em;
+   height: auto;
+   position: absolute;
+   left: 0;
+   top: 18%;
+}
+
+.nav a {
+   text-decoration: none;
+   font-size: 1.1em;
+   font-family: 'Josefin Sans', sans-serif;
+   display: inline-block;
+   color: #fff;
+   width: 100%;
+   height: 2.5em;
+   margin: 0.3em 0;
+   text-align: center;
+   line-height: 2.8em;
+}
+
+a.active {
+   background-color: #66ff33;
+   color: black;
+   transition: 0.6s;
+   width: 100%;
+}
+
+.nav a:hover {
+   background-color: #ffff4d;
+   color: black;
+   transition: 0.5s;
+   width: 100%;
+   padding-right: 5%;
+}
+
+.icon {
+   position: absolute;
+   right: 1%;
+   top: 2%;
+}
+
+.content {
+   position: absolute;
+   width: 75em;
+   height: auto;
+   min-height: 30em;
+   right: 4%;
+   top: 16.5%;
+}
+
+.home {
+   position: absolute;
+   right: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   line-height: 1.5em;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+.home h1 {
+   font-size: 2.5em;
+}
+
+.slider {
+   position: absolute;
+   float: right;
+   width: 45em;
+   height: auto;
+   text-align: center;
+}
+
+.safety {
+   position: absolute;
+   left: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   padding-left: 1em;
+   padding-right: 1em;
+   display: none;
+}
+
+.rules {
+   position: absolute;
+   left: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   padding-left: 1em;
+   padding-right: 1em;
+   display: none;
+}
+
+.blockage {
+   position: absolute;
+   left: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   padding-left: 1em;
+   padding-right: 1em;
+   display: none;
+}
+
+.reports {
+   position: absolute;
+   left: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   padding-left: 1em;
+   padding-right: 1em;
+   display: none;
+}
+
+.merch {
+   position: absolute;
+   left: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   padding-left: 1em;
+   padding-right: 1em;
+   display: none;
+}
+
+.about {
+   position: absolute;
+   left: 0;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1.4em;
+   padding-left: 1em;
+   padding-right: 1em;
+   display: none;
+}
+
+.about h2 {
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 2.3em;
+   color: #6fdc6f;
+}
+
+.footer center {
+   position: absolute;
+   bottom: 0;
+   left: 37%;
+   color: white;
+   font-family: "Karla", sans-serif;
+   font-weight: lighter;
+   font-size: 1em;
+}
